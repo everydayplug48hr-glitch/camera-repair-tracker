@@ -1,6 +1,8 @@
 :root { --ink:#1f2a2e; --paper:#eceff0; --card:#fff; --line:#cfd6d9; --brass:#a87a1f; --late:#b3382c; }
 * { box-sizing: border-box; }
-body { margin:0; font:16px/1.5 system-ui, sans-serif; color:var(--ink); background:var(--paper); }
+body { margin:0; font:16px/1.5 system-ui, sans-serif; color:var(--ink);
+  background: linear-gradient(160deg, #dfe5e8 0%, #b9c4c9 55%, #8d9ba1 100%) fixed; min-height:100vh; }
+  background: linear-gradient(160deg, #dfe5e8 0%, #b9c4c9 55%, #8d9ba1 100%) fixed; min-height:100vh; }
 .top { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; padding:.9rem 1.2rem; background:var(--ink); color:#fff; }
 .top nav { display:flex; gap:1.2rem; }
 .top a { color:#c9d2d5; text-decoration:none; padding-bottom:2px; }
