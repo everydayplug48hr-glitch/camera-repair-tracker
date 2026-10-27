@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camera Repair Tracker</title>
+   <script>
+  window.addEventListener('error', function (e) {
+    document.body.insertAdjacentHTML('afterbegin',
+      '<pre style="color:red;padding:1rem;white-space:pre-wrap">' + e.message + '</pre>');
+  });
+</script> 
   </head>
   <body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body>
 </html>
